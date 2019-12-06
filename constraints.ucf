@@ -1,0 +1,12 @@
+NET clk LOC = T9;
+
+NET "vga_red" LOC = "R12";
+NET "vga_green" LOC = "T12";
+NET "vga_blue" LOC = "R11";
+NET "vga_hsync" LOC = "R9";
+NET "vga_vsync" LOC = "T10";
+
+NET resetbutton LOC = L14;
+
+NET "clk" TNM_NET = "clk";
+TIMESPEC "TS_clk" = PERIOD "clk" 20 ns HIGH 50 %;
